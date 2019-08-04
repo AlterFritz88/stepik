@@ -3,6 +3,6 @@ project(stepik C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(stepik   task_9_3_7.c)
+add_executable(stepik   task_10_1_11.c)
 find_library(M_LIB m)
 target_link_libraries(stepik ${M_LIB})
